@@ -105,3 +105,6 @@ dist
 
 # Ignore all files from IntelliJ/WebStorm
 .idea/**
+
+# Ignore dist application folder
+.dist
