@@ -8,7 +8,7 @@
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": 2018,
+        "ecmaVersion": 2020,
         "sourceType": "module"
     },
     "plugins": [
@@ -18,11 +18,13 @@
         "camelcase": "off",
         "class-methods-use-this": "off",
         "comma-dangle": ["error", "never"],
+        "import/extensions": 0,
         "import/no-dynamic-require": 0,
         "import/no-named-as-default": 0,
         "import/no-unresolved": 0,
         "global-require": "off",
         "lines-between-class-members": "off",
+        "max-len": ["error", { "comments": 400, "code": 120, "tabWidth": 4 }],
         "no-console": "off",
         "no-undef": "off",
         "no-underscore-dangle": "off",
